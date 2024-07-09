@@ -25,7 +25,7 @@ body {
   margin-right: auto;
 }
 
-.editor-section {
+.editor-section {min-width: 280px;
   margin-right: 5vh;
   margin-bottom: 20px;
   width: 26%;
