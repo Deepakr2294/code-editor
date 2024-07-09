@@ -1,0 +1,44 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  background-color: aqua;
+}
+.right-div {
+  width: 35%;
+  height: 100vh;
+  padding: 2vh;
+  color: aliceblue;
+  font-size: 3vh;
+  background-color: brown;
+}
+.left-div {
+  width: 65%;
+  height: 100vh;
+  padding: 2vh;
+  background-color: black;
+}
+.left-div p {
+  color: aliceblue;
+  font-size: 3vh;
+}
+.left-div-img {
+  width: 80%;
+  padding: 5vh;
+  height: 90vh;
+}
+.left-div-img img {
+  width: 100%;
+  background-color: antiquewhite;
+  height: 100%;
+  object-fit: contain;
+}

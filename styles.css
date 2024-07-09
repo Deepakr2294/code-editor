@@ -1,0 +1,79 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+  padding: 20px;
+}
+
+.editor-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  max-width: 1350px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.editor-section {
+  margin-right: 5vh;
+  margin-bottom: 20px;
+  width: 26%;
+}
+
+.editor-section h2 {
+  /* color: #ccc; */
+  margin-bottom: 10px;
+}
+
+#html-editor,
+#css-editor,
+#js-editor {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  min-height: 50px;
+  min-width: 132px;
+  margin: 10px;
+  height: 5%;
+  width: 20%;
+}
+
+/* button:focus {
+    background-color: #4380c0;
+} */
+
+.output {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #3333;
+  border-radius: 4px;
+}
+iframe{
+    background-color: aliceblue;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="editor-container">
+        <div class="editor-section">
+            <h2>HTML</h2>
+            <textarea id="html-editor" placeholder="Write your HTML code here..."></textarea>
+        </div>
+        <div class="editor-section">
+            <h2>CSS</h2>
+            <textarea id="css-editor" placeholder="Write your CSS code here..."></textarea>
+        </div>
+        <div class="editor-section">
+            <h2>JavaScript</h2>
+            <textarea id="js-editor" placeholder="Write your JavaScript code here..."></textarea>
+        </div>
+    </div>
+    <button onclick="runCode()" id="btn">Run Code</button>
+    <iframe id="output" class="output"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>
